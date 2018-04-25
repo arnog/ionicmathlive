@@ -12,3 +12,5 @@ $ cd ionicmathlive
 
 $ npm install
 
+$ ionic serve
+
