@@ -1,3 +1,19 @@
 page-home {
-
+  .mathfield {
+    height: 10vh;
+              border: 1px solid #ddd;
+              padding:5px;
+              margin: 10px 0 10px 0;
+              border-radius:5px;
+              background-color: #fff;
+          }
+          #output {
+              padding:5px;
+              margin: 200px 0 10px 0;
+              border-radius:5px;
+              border: 1px solid #000;
+              font-family: "Source Code Pro", Menlo, "Bitstream Vera Sans Mono", Monaco, Courier, "Andale Mono", monospace;
+              color: #f0c674;
+              background: #35434e;
+          }
 }
