@@ -1,7 +1,6 @@
 import { Component,  ElementRef, Input, ViewChild, Inject } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import * as MathLive from 'mathlive';
-declare var MathLive;
 
 
 
@@ -13,7 +12,10 @@ export class HomePage {
 @ViewChild('mathfield') mathfield: ElementRef;
 
   constructor(public navCtrl: NavController, public el:ElementRef) {
-MathLive.makeMathField(this.mathfield.nativeElement);
+  }
+
+  ionViewDidLoad() {
+    MathLive.makeMathField(this.mathfield.nativeElement);
   }
 
 }
